@@ -25,18 +25,18 @@ header p {
   width: 49%;
   margin: auto;
   text-align: center;
-  font-size: 2em;
-  padding: 1.2em;
+  font-size: 3em;
+  padding: 0.7em;
 }
 
 .fastest {
-  background-color: rgba(0, 255, 0, 0.3);
+  background-color: rgba(150, 150, 150, 0.3);
   border-bottom: 3px solid black;
   border-right: 3px solid black;
 }
 
 .popular {
-  background-color: rgba(0, 255, 0, 1);
+  background-color: rgba(200, 100, 100, 1);
   border-top: 3px solid black;
 }
 
