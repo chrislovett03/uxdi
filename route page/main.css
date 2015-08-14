@@ -1,0 +1,92 @@
+html {
+	font-family: "Futura LT";
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+header {
+	background-color: #F3F3F3;
+	width: 100%;
+	font-size: 1.1em;
+}
+
+.route {
+	text-align: center;
+	padding: 18px 0;
+}
+
+nav {
+	white-space: nowrap;
+}
+
+.tab {
+	border-top: 1px #ACACAC solid;
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	padding: 13px 0;
+}
+
+.tab:hover {
+	opacity: 0.8;
+}
+
+.selected {
+	background-color: #34599E;
+	color: white;
+}
+
+main {
+	color: white;
+}
+
+section {
+	display: inline-block;
+	height: 250px;
+	width: 100%;
+}
+
+section:hover {
+	opacity: 0.9;
+}
+
+section:nth-child(1) {
+	background: linear-gradient(rgba(62, 83, 53, 0.38), rgba(62, 83, 53, 0.38)), url("https://static.pexels.com/photos/4019/landscape-mountains-nature-rocks.jpeg") no-repeat center center;
+	background-size: cover;
+
+}
+
+section:nth-child(2) {
+	background: linear-gradient(rgba(79, 1, 148, 0.31), rgba(79, 1, 148, 0.31)), url("https://static.pexels.com/photos/2850/people-party-dancing-music.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+section:nth-child(3) {
+	background: linear-gradient(rgba(84, 42, 5, 0.42), rgba(84, 42, 5, 0.42)), url("https://static.pexels.com/photos/5317/food-salad-restaurant-person.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.stars {
+	padding: 15px;
+}
+
+.fa-star {
+	color: #E7C922;
+}
+
+.fa-chevron-down, .title {
+	padding-top: 45px;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.fa-chevron-down {
+	font-size: 2.5em;
+	padding-left: 30px;
+	padding-right: 15px;
+}
+
+.title {
+	font-size: 3.5em;
+}
